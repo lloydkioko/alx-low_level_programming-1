@@ -7,9 +7,10 @@
  */
 
 int main(void)
+
 {
 int lw = 'a';
-intf up = 'A';
+int up = 'A';
 while (lw <= 'z')
 {
 putchar(lw);
