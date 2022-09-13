@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <main.h>
+
 /**
  *Description:main -print _putchar
  *Return: Always 0 (success)
