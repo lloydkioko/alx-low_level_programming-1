@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ *strlen - return string length 
+ *@s: retun string
+ *Return: 0 Success
+ */
+int _strlen(char, *s)
+{
+int count = 0;
+while (*(s + count) != '\0')
+count++;
+return (count);
+}
