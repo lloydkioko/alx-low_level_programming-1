@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ *print_rev - print string, in reverse, then newline.
+ *
+ *@str: length of string to reverse.
+ *
+ *@rev: reversing function.
+ *
+ *Return: 0 success
+ */
+
+void print_rev(char *s)
+{
+char str[1000] = "Brick", rev[1000];
+}
