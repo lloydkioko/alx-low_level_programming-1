@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * factorial - function to print factorial.
- *@n: integer to factorize.
- *Return: -1 with an error.
+ * factorial - returns the factorial of a given number.
+ * @n: input number.
+ * Return: factorial of the number.
  */
-int factorial(int n);
+int factorial(int n)
 {
 if (n < 0)
 return (-1);
