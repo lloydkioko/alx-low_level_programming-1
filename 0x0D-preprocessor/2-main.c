@@ -1,11 +1,15 @@
 #include <stdio.h>
+
 /**
- *main  - print the name of source file.
+ * main - Prints the name of the file of the program
+ *        was compiled from, followed by a new line.
  *
- * Return; 0.
+ * Return: Always 0.
  */
-int main(void)
+
+int main(void)  
 {
-printf("%s\n", _FILE_);
+printf("%s\n", __FILE__);
+
 return (0);
 }
