@@ -11,27 +11,25 @@
 
 int main(void)
 {
-int n1 = 48;
-int a = 0;
-int b;
-int com = 44;
-while (a <= 99)
-b = a + 1;
-while (b <= 99)
+int i, j;
+i = 48;
+j = i + 1;
+
+for (i = 48; i <= 57; i++)
 {
-putchar((a / 10) + n1);
-putchar((a % 10) + n1);
-putchar(32);
-putchar((b / 10) + n1);
-putchar((b % 10) + n1);
-if (a != 98 || b != 99)
+for (j = 48; j <= 57; j++)
 {
-putchar(com);
-putchar(32);
+putchar(i);
+putchar(j);
+{
+if (i == 51 && j == 52)
+continue;
+{
+putchar(',');
+putchar(' ');
 }
-b += 1;
 }
-a += 1;
+}
 }
 putchar('\n');
 return (0);
