@@ -8,10 +8,11 @@ void close_file(int fd);
  * @file: The name of the file buffer is storing chars for.
  *
  * Return: A pointer to the newly-allocated buffer.
+
  */
 char *create_buffer(char *file)
 {
-char *buffer;
+char buffer;
 buffer = malloc(sizeof(char) * 1024);
 if (buffer == NULL)
 {
